@@ -1,18 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- facebook tags -->
+  <meta property="og:title" content="Cardi B Making Headlines">
+  <meta property="og:description" content="Cardi B's tops Chachella results in google analytics.">
+  <meta property="og:image" content="https://i.ytimg.com/vi/0wgykFpdgmY/maxresdefault.jpg">
+  <meta property="og:url" content="https://adran5.github.io/html300week02/">
+  <meta property="og:type" content="website">
+
+  <!-- twitter tags -->
+  <meta name="twitter:title" content="Cardi B Making Headlines">
+  <meta name="twitter:description" content="Cardi B's tops Chachella results in google analytics.">
+  <meta name="twitter:image" content="https://adran5.github.io/html300week02/images/cardi2.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
   <title>Cardi B</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+    return t;
+    }(document, "script", "twitter-wjs"));
+  </script>
+  
 </head>
 <body>
+  <!-- Facebook snippet so facebook button works -->
+<!--
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+-->
+  
   <h1>Cardi B</h1>
-  <img src="images/cardi1.jpg" alt="Cardi B">
-  <img src="images/cardi2.jpg" alt="Cardi B">
-  <img src="images/cardi3.jpg" alt="Cardi B">
-  <p>Belcalis Almanzar (born October 11, 1992), known professionally as Cardi B, is an American rapper. Born and raised in The Bronx, New York City, she first attracted attention for discussing her career as a stripper on social media; coupled with her "no filter attitude", she became an Internet celebrity through Instagram.</p>
+  <div class="container"> 
+    <figure>
+      <img src="images/cardi1.jpg" alt="Cardi B">
+      <figcaption>Cardi Tongue</figcaption>
+    </figure>
+    <figure>
+      <img class="cardiclass" src="images/cardi2.jpg" alt="Cardi B">
+      <figcaption>Cardi Class</figcaption>
+    </figure>
+    <figure>
+      <img src="images/cardi1.jpg" alt="Cardi B">
+      <figcaption>Cardi Tongue</figcaption>
+    </figure>
+    </div>
+  
+  <div class="textcontainer"> 
+    <p>Belcalis Almanzar (born October 11, 1992), known professionally as Cardi B, is an American rapper. Born and raised in The Bronx, New York City, she first attracted attention for discussing her career as a stripper on social media; coupled with her "no filter attitude", she became an Internet celebrity through Instagram.</p>
 
-  <p>From 2015 to 2017, she appeared as a regular cast member on the VH1 reality television series Love &amp; Hip Hop: New York. In February 2017, she signed her first major label record deal with Atlantic Records. Her debut single for Atlantic, titled "Bodak Yellow", reached number one on the US Billboard Hot 100 chart, making her the second-ever female rapper to do so with a solo output, following Lauryn Hill in 1998. The single was included on her debut studio album Invasion of Privacy (2018).</p>
+    <p>From 2015 to 2017, she appeared as a regular cast member on the VH1 reality television series Love &amp; Hip Hop: New York. In February 2017, she signed her first major label record deal with Atlantic Records. Her debut single for Atlantic, titled "Bodak Yellow", reached number one on the US Billboard Hot 100 chart, making her the second-ever female rapper to do so with a solo output, following Lauryn Hill in 1998. The single was included on her debut studio album Invasion of Privacy (2018).</p>
+  </div>
+   <div class="share">
+    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Cool+Boyes+%26+More+at+https%3A%2F%2Fcherimarie.github.io%2Ftest-soc-med%2F">
+      Tweet
+    </a>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcherimarie.github.io%2Ftest-soc-med%2F&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    <a class="tumblr-share-button" href="https://www.tumblr.com/share"></a>
+  </div>
+
+  <!-- Twitter widget to make "tweet" buttons work properly -->
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
+
+  <!-- Tumblr script so "share to tumblr" buttons work properly -->
+  <script id="tumblr-js" async src="https://assets.tumblr.com/share-button.js"></script>
   <footer>
+   
+
   </footer>
 </body>
 </html>

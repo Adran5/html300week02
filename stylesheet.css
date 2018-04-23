@@ -1,0 +1,36 @@
+
+.body {
+  font-family: sans-serif;
+  background-color: darkorchid;
+  color: black;
+  margin: 0;
+  text-align: center;
+  padding: 0 0 88px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+img {
+  max-width: 15rem;
+}
+
+
+/*
+.textcontainer {
+  margin: 3em;
+}
+*/
+
+.share {
+  width: 100%;
+  position: fixed;
+  padding: 2rem;
+  bottom: 0;
+  background: grey;
+}
